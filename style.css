@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 300px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 344px;
+    border: 2px solid orange;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#password-input{
+    width: 90%;
+    margin-right: 10px;
+}
+
+.password_cont{
+    display: flex;
+    align-items: center;
+}
+
+.password-control{
+    height: 20px;
+    width: 10%;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+
+.password-control.view {
+    background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+
+.registr{
+    border: 2px solid gray;
+    padding: 20px;
+    height: 260px;
+}
+.reg{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    border: 2px solid gray;
+    padding-top: 16px;
+}
+
+.in{
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.photo_cont{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile_photo{
+    object-fit: cover;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.profile_cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+}
+
+.mini_avatar{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid gray;
+    margin-right: 5px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.label_profile{
+    padding: 2px;
+    border-radius: 3px;
+    margin: 10px;
+    background-color: dodgerblue;
+    font-size: 15px;
+    color: white;
+}
+
+.btn-profile{
+    padding: 2px;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+
+.label_profile:hover{
+    background-color: gray;
+}
+
+.btn-profile:hover{
+    background-color: gray;
+}
+
+
+
+.logout{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.prof{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.p_photo{
+    object-fit: cover;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sent{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px;
+    font-weight: 600;
+    border: none;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.com_cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.com{
+    border: 2px solid black;
+    width: 70%;
+    min-height: 50px;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.lg{
+width: 20%;
+    margin-right: 10px;
+}
+
+.in_prof{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons{
+    height: 80px;
+    display: flex;
+}
+
+.ont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 20px;
+}
