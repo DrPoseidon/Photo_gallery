@@ -11,6 +11,10 @@ a{
     color: black;
 }
 
+input[type = 'text'],input[type = 'password'],input[type = 'email']{
+    background-color: rgba(1,1,1,0);
+}
+
 body{
     display: flex;
     flex-direction: column;
